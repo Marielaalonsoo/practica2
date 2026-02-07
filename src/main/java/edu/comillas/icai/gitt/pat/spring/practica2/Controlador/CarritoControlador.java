@@ -25,6 +25,17 @@ public class CarritoControlador {
 
         return carritos.values();
     }
+
+    @GetMapping("/api/carrito/{idCarrito}")
+    public Carrito getCarrito(@PathVariable int idCarrito) {
+        return carritos.get(idCarrito);
+    }
+
+    @DeleteMapping("/api/carrito/{idCarrito}")
+    public Carrito borrarCarrito(@PathVariable int idCarrito) {
+            carritos.remove(idCarrito);
+    }
+
 }
 
 
