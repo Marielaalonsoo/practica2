@@ -15,6 +15,7 @@ public class Carrito {
         this.descripcion = descripcion;
         this.unidades = unidades;
     }
+    public Carrito() {}
 
     public int getIdCarrito() {
         return idCarrito;
