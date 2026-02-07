@@ -36,6 +36,15 @@ public class CarritoControlador {
             carritos.remove(idCarrito);
     }
 
+
+    @PutMapping ("/api/carrito/{idCarrito}")
+        public Carrito modificaCarrito(@PathVariable int idCarrito, @RequestBody Carrito carrito){
+            carritos.put(idCarrito, carrito);
+            return carrito;
+        }
+    }
+
+
 }
 
 
