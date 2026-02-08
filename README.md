@@ -5,27 +5,27 @@ gestion de carritos.
 A continuación se presenta la tabla de Endpoints de la API REST desarollada. Esta tabla sirve como resumen del comportamiento 
 de la API: 
 
-![Arquitectura](imagenes/Tabla.png)
+![Arquitectura](/imagenes/Tabla.png)
 
 Para verificar el funcionamiento de la API REST hay que hacer las peticiones necesarias HTTP desde postman.
 
 En primer lugar para probar el POST envio un body en formato JSON para crear nuevos carritos y comprobar que se almacenan correctamente en el sistema 
 
-![Arquitectura](imagenes/Post1.png)
+![Arquitectura](/imagenes/Post1.png)
 
-![Arquitectura](imagenes/Post2.png)
+![Arquitectura](/imagenes/Post2.png)
 A continuancioón mediante una peticion GET vemos la lista completa de carritos creados:
 
-![Arquitectura](imagenes/Get1.png)
+![Arquitectura](/imagenes/Get1.png)
 
 Tambien podemos hacer una peticion GET de forma individual de cada carrito mediante idCarrito :
 
-![Arquitectura](imagenes/Get2.png)
+![Arquitectura](/imagenes/Get2.png)
 
 Para eliminar un carrito concreto hacemos una peticion DELETE y comprobamos que ha funcionado correctamente mediante un GET : 
 
-![Arquitectura](imagenes/Delete.png)
+![Arquitectura](/imagenes/Delete.png)
 
 Por ultimo hacemos una petición PUT para modificar cualquiera de los campas de una carrito ya existente, enviando un JSON con los nuevos datos : 
 
-![Arquitectura](imagenes/Put.png)
+![Arquitectura](/imagenes/Put.png)
