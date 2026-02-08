@@ -12,6 +12,7 @@ Para verificar el funcionamiento de la API REST hay que hacer las peticiones nec
 En primer lugar para probar el POST envio un body en formato JSON para crear nuevos carritos y comprobar que se almacenan correctamente en el sistema 
 
 ![Arquitectura](imagenes/Post1.png)
+
 ![Arquitectura](imagenes/Post2.png)
 A continuancioón mediante una peticion GET vemos la lista completa de carritos creados:
 
